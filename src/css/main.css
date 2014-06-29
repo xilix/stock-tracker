@@ -1,0 +1,69 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #BBB;
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+article {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  background-color: #FFF;
+}
+.graph-content {
+  margin-top: 5px !important;
+  height: 500px !important;
+}
+.content {
+  width: 80%;
+  height: 75px;
+  margin: auto;
+  padding: 15px;
+}
+.graph {
+  width: 100%;
+  height: 300px;
+}
+.stock-content {
+  display: block;
+  width: 100px;
+  height: 75px;
+  margin: 0px;
+  margin-right: 10px;
+  color: #000;
+  text-align: center;
+  float: left;
+  clear: none:
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color:#fff;
+  background-image:-moz-linear-gradient(top,#EEEEEE,#CCCCCC);
+  background-image:-webkit-gradient(linear,0 0,0 100%,from(#EEEEEE),to(#CCCCCC));
+  background-image:-webkit-linear-gradient(top,#EEEEEE,#CCCCCC);
+  background-image:-o-linear-gradient(top,#EEEEEE,#CCCCCC);
+  background-image:linear-gradient(to bottom,#EEEEEE,#CCCCCC);
+  background-repeat:repeat-x;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffEEEEEE',endColorstr='#ffCCCCCC',GradientType=0)
+}
+.stock-name {
+  font-weight: bold;
+}
+.stock-name, .stock-value {
+  font-size: 8pt;
+}
+.stock-variation {
+  color: #333;
+  font-size: 8pt;
+}
+.stock-variation-increase {
+  color: #393;
+}
+.stock-variation-decrease {
+  color: #933;
+}

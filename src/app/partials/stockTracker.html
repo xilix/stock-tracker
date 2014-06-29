@@ -1,0 +1,8 @@
+<article ng-controller="CtrlStockTracker">
+  <section class="content" data-ng-repreat="sotck in stocks">
+    <stk-info-panel stockinfo="{{stock}}"></stk-info-panel>
+  </section>
+  <section class="content graph-content">
+    <div class="graph" id="graph" data-graph></div>
+  </section>
+</article>
