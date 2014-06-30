@@ -1,6 +1,6 @@
 ## Stock market tracker concept ##
 
-Just showing some way to use angular and d3 to display a real time data chart.
+Just showing some way to use angular and d3 to display a real time stock market data chart.
 
 ### Install ###
 
