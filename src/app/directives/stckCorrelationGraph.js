@@ -81,7 +81,7 @@ define(
           .attr("x", graph.width - graph.padding - graph.margin.right)
           .attr("y", -6)
           .style("text-anchor", "end")
-          .text("NADAQ");
+          .text("NASDAQ");
 
         graph.svg.append("g")
           .attr("class", "y axis")
